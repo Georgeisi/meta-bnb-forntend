@@ -10,7 +10,7 @@ const navigate=useNavigate()
 
 
 const login = async (Incoming) => {
-    const res = await fetch("http://127.0.0.1:8000/api/auth/token/login/", {
+    const res = await fetch("https://metabnb-api.onrender.com/api/auth/token/login/", {
       method: "POST",
       headers: {
         "Content-Type": "Application/json",
@@ -40,7 +40,7 @@ const login = async (Incoming) => {
   };
 
 const loginuser = async (Incoming) => {
-    const res = await fetch("http://127.0.0.1:8000/api/auth/users/", {
+    const res = await fetch("https://metabnb-api.onrender.com/api/auth/users/", {
       method: "POST",
       headers:{
         "Content-Type": "Application/json",
