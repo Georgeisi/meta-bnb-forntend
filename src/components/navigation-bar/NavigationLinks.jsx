@@ -11,7 +11,7 @@ const Links = ({ isMobile,token , setToken }) => {
 
            
 const logOutUser=async ()=>{
-  const res =await fetch('http://127.0.0.1:8000/api/auth/token/logout/',{
+  const res =await fetch('https://metabnb-api.onrender.com/api/auth/token/logout/',{
     method: 'POST',
     headers:{
       'Content-Type':'application/json',
