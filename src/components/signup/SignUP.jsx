@@ -45,6 +45,7 @@ const SignUP = ({ token, setToken }) => {
       }
     }
     // console.log(res.data);
+    
 
     //
   };

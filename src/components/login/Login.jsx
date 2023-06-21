@@ -46,7 +46,7 @@ const Login = ({ token, setToken }) => {
         }
       }
       //
-      console.log(error.response.data);
+    //   console.log(error.response.data);
     }
     // console.log(res.data);
   };

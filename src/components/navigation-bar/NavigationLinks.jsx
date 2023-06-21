@@ -27,7 +27,7 @@ const logOutUser=async ()=>{
 
 }
 
-  console.log(token);
+  // console.log(token);
   return (
     <OrderedList
       display={{ base: isMobile ? `flex` : `none`, xl: `flex` }}
